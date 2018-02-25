@@ -19,6 +19,7 @@ pipeline {
         }
         unstable {
             echo 'unstable cleanup'
+            echo 'i.e. runs if the build was marked unstable'
         }
         changed {
             echo 'changed cleanup'
